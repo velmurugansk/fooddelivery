@@ -1,0 +1,27 @@
+    # Node.js dependencies
+    node_modules/
+
+    # Environment files
+    .env
+    .env.local
+
+    # Build files and generated directories
+    build/
+    dist/
+    client/build/ # If your client build output is in a 'build' folder within 'client'
+    server/dist/ # If your server build output is in a 'dist' folder within 'server'
+
+    # IDE-specific files
+    .vscode/
+    .idea/
+
+    # Operating System files
+    .DS_Store
+    Thumbs.db
+
+    # Log files
+    *.log
+
+    # Temporary files
+    *.tmp
+    *~
